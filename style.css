@@ -53,19 +53,25 @@ body {
 
 .hero-text {
   max-width: 600px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.1;
+  align-self: center;
+  left: 60px;
 }
 
-.hero-text h3 {
+/* .hero-text h3 {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 10px;
-}
+} */
 
-.hero-text h1 {
-  font-size: 68px;
+/* .hero-text h1 {
+  font-size: 100px;
   font-weight: 700;
   line-height: 1.1;
-}
+  align-self: center; 
+} */
 
 .hero-text span {
   color: #6c7b52;
@@ -81,10 +87,25 @@ body {
   cursor: pointer;
 }
 
-.hero-image img {
-  width: 600px;
-  height: auto;
+@keyframes float {
+  0%   { transform: translateY(0); }
+  25%  { transform: translateY(-10px); }
+  50%  { transform: translateY(0); }
+  75%  { transform: translateY(-7px); }
+  100% { transform: translateY(0); }
 }
+
+.hero-image img {
+  width: 800px;
+  height: auto;
+  flex: center; 
+}
+
+.hero-image {
+  animation: float 5s ease-in-out infinite;
+  /* Adjust duration for speed (e.g. 2s, 4s), and translateY for range */
+}
+
 
 /* Organic Section */
 .organic {
@@ -197,7 +218,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 60px 120px;
+  padding: 20px 120px;
   background-color: #f2ede4;
   flex-wrap: wrap;
 }
