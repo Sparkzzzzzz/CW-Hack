@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f9f9f7;
+  color: #222;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+nav {
+  display: flex;
+  gap: 2.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  transition: opacity 0.2s;
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.currency {
+  border: none;
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  color: #222;
+  cursor: pointer;
+}
+
+.currency:focus {
+  outline: none;
+}
+
+main.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 4rem;
+  gap: 3rem;
+}
+
+.text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.text p {
+  font-size: 70px;
+  font-weight: 700;
+  max-width: 600px;
+}
+
+.flower img {
+  width: 160px;
+  filter: invert(10%) brightness(0.9);
+}
+
+@media (max-width: 768px) {
+  main.content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

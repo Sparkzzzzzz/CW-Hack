@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f5;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #111;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+a {
+  font-size: 18px;
+  color: #111;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.flower img {
+  width: 160px;
+  margin-top: 40px;
+  opacity: 0.9;
+}
