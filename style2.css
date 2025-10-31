@@ -10,12 +10,12 @@ body {
   background-color: #f0f0ec;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 25px 60px;
-  font-size: 0.95rem;
+  justify-content: space-between;
+  padding: 25px 80px;
 }
 
 .logo {
@@ -219,4 +219,9 @@ body {
     flex-direction: column;
     gap: 40px;
   }
+}
+
+.navbar nav-image {
+  width: 100px;
+
 }
