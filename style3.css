@@ -157,3 +157,7 @@ body {
   justify-content: space-between;
   padding: 25px 80px;
 }
+
+.footer hidden {
+  color: #E8E8E1;
+}
