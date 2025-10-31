@@ -77,6 +77,12 @@ body {
   color: #444;
 }
 
+.about .about-text roots {
+  color: #2a7d2e;
+  font-weight: bold;
+}
+
+
 .about-image {
   flex: 0.9;
   display: flex;
